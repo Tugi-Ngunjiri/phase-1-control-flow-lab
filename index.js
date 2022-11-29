@@ -33,24 +33,24 @@ function addFive(someNumber) {
 
 //once our function is declared, we can call addFive, passing in values 
 //as arguments:
-
-addFive(10);
-//=> 15
+ addFive(10);
+15
 
 addFive(20);
-//=> 25
+25
 
 addFive(-5);
-//=> undefined
+undefined
 
 addFive(addFive(5));
-//=> 15!! In this case, the return value of addFive(5), 10, is passed in 
+//5!! In this case,  the return value of addFive(5), 10, is passed in 
 //as the argument to the outer addFive, returning 15
 function scuberGreetingForFeet(someValue) {
   //this is where we can use conditionals given our argument, someValue
   //don't forget to return whatever the result is!
 }
 2 < 5 < 4
-// => true
+// =>true
+
 Number(true);
-// => 1
+1
