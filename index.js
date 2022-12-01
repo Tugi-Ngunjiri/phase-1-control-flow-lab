@@ -1,56 +1,28 @@
-function scuberGreetingForFeet(){
-  // Write your code here!
+function scuberGreetingForFeet(distance){
+  if(distance <= 400){
+return 'This one is on me', 'This one is on me!'
+
+  }
+else if(distance >  2000 && distance <= 2500){
+ return 'I will gladly take your thirty bucks.'
+}
+else if(distance > 2500){
+return 'No can do.'
+
+} 
 }
 
-function ternaryCheckCity(){
-  // Write your code here!
+function ternaryCheckCity(city){
+return city == 'NYC' ? "Ok, sounds good." : "No go."
 }
+console.log(ternaryCheckCity("Nairobi"));
+
+return "Thank you so much."
+
+return"Thank you."
+
+return"Bye."
 
 function switchOnCharmFromTip(){
-  // Write your code here!
+ // Write your code here! 
 }
-describe('index.js', function () {
-  describe('scuberGreetingForFeet()', function () {
-    it('gives customers a free sample if the ride is less than or equal to 400 feet', function () {
-      expect(scuberGreetingForFeet(199)).to.equal('This one is on me!');
-    });
-
-    // tests continue...
-  });
-});
-function addFive(someNumber) {
-  //Everything I want my function to do I put inside these curly braces
-  //In this example, let's say I want my function, addFive, to add 5 to
-  //any number I pass in (someNumber), but only IF the number is greater
-  //than zero:
-  let result
-  if (someNumber > 0) {
-    result = someNumber + 5;
-  }
-  //at the end, if I want my function to return something, I need to state it:
-  return result
-}
-
-//once our function is declared, we can call addFive, passing in values 
-//as arguments:
- addFive(10);
-15
-
-addFive(20);
-25
-
-addFive(-5);
-undefined
-
-addFive(addFive(5));
-//5!! In this case,  the return value of addFive(5), 10, is passed in 
-//as the argument to the outer addFive, returning 15
-function scuberGreetingForFeet(someValue) {
-  //this is where we can use conditionals given our argument, someValue
-  //don't forget to return whatever the result is!
-}
-2 < 5 < 4
-// =>true
-
-Number(true);
-1
